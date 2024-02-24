@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="413.8463726937771" y="-228.6949317753315">dao.IDao</node>
+    <node x="413.8463726937771" y="-132.1949317753315">dao.IDaoImpl</node>
+    <node x="160.17709815502167" y="-153.1949317753315">metier.IMetierImpl</node>
+    <node x="605.8463726937771" y="-132.1949317753315">ext.IDaoImplV2</node>
+    <node x="-80.49217638373375" y="-228.6949317753315">metier.IMetier</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dao.IDaoImpl" target="dao.IDao" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="ext.IDaoImplV2" target="dao.IDao" relationship="REALIZATION">
+      <point x="-0.0" y="-38.0" />
+      <point x="682.8463726937771" y="-202.1949317753315" />
+      <point x="77.0" y="-0.0" />
+    </edge>
+    <edge source="metier.IMetierImpl" target="metier.IMetier" relationship="REALIZATION">
+      <point x="-80.5" y="-0.0" />
+      <point x="-9.49217638373375" y="-92.6949317753315" />
+      <point x="-0.0" y="26.5" />
+    </edge>
+    <edge source="metier.IMetierImpl" target="dao.IDao" relationship="TO_ONE">
+      <point x="-0.0" y="-60.5" />
+      <point x="240.67709815502167" y="-202.1949317753315" />
+      <point x="-77.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6893502272092538" showDependencies="true" x="232.09949223324656" y="89.33928469444311" />
+  <SelectedNodes>
+    <node>metier.IMetierImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
